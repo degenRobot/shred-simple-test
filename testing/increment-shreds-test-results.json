@@ -1,0 +1,594 @@
+{
+  "testType": "sequential-increment-with-shreds",
+  "timestamp": "2025-06-18T01:57:00.458Z",
+  "configuration": {
+    "contractAddress": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+    "numTransactions": 20,
+    "gasPrice": "114",
+    "gasLimit": "10000000"
+  },
+  "summary": {
+    "totalTransactions": 20,
+    "totalEvents": 21,
+    "avgTransactionDurationMs": 760.1,
+    "minTransactionDurationMs": 652,
+    "maxTransactionDurationMs": 1445,
+    "avgRpcDurationMs": 229.45,
+    "rpcValuesMatching": 0,
+    "rpcValuesTotal": 20,
+    "initialCounterValue": "200",
+    "finalCounterValue": "220",
+    "expectedFinalValue": "220"
+  },
+  "transactions": [
+    {
+      "index": 1,
+      "txHash": "0x4735a81b2f1c65d0c0d86894e9d8d04df1001f12fe38f755d79da3622bf9acf1",
+      "nonce": 66386,
+      "startTime": 1750211802941,
+      "endTime": 1750211804386,
+      "duration": 1445,
+      "blockNumber": 15123046,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 228,
+        "expectedValue": "201",
+        "rpcResult": "200",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 2,
+      "txHash": "0x18645ba327b1a2fb4118ad231d0093bf8bb649dbdc2bec9d3e04fa7ccf1d183b",
+      "nonce": 66387,
+      "startTime": 1750211804389,
+      "endTime": 1750211805594,
+      "duration": 1205,
+      "blockNumber": 15123047,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 227,
+        "expectedValue": "202",
+        "rpcResult": "200",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 3,
+      "txHash": "0x5de45e515a3966cf37049212ff59e2031e5fd992223b4615fc8e949ba9feab70",
+      "nonce": 66388,
+      "startTime": 1750211805596,
+      "endTime": 1750211806267,
+      "duration": 671,
+      "blockNumber": 15123048,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 215,
+        "expectedValue": "203",
+        "rpcResult": "201",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 4,
+      "txHash": "0xe85ba993097fda44d5a584ab9cca792ca45cdcb60c015cc86a944f8f1295d836",
+      "nonce": 66389,
+      "startTime": 1750211806268,
+      "endTime": 1750211806925,
+      "duration": 657,
+      "blockNumber": 15123048,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 221,
+        "expectedValue": "204",
+        "rpcResult": "202",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 5,
+      "txHash": "0x6d588d107e6a6f8d1448885476df985797f8718137a1c9c50d12825a77da6303",
+      "nonce": 66390,
+      "startTime": 1750211806928,
+      "endTime": 1750211807590,
+      "duration": 662,
+      "blockNumber": 15123049,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 224,
+        "expectedValue": "205",
+        "rpcResult": "202",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 6,
+      "txHash": "0x7740fb0b3e2d13fcc0b9e0f165ef317eefb7f499f84bd2c919b7f7e7f1f1dbaa",
+      "nonce": 66391,
+      "startTime": 1750211807592,
+      "endTime": 1750211808265,
+      "duration": 673,
+      "blockNumber": 15123050,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 219,
+        "expectedValue": "206",
+        "rpcResult": "204",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 7,
+      "txHash": "0xe23075c94ebf14a0f31dd847824336fbe9628847a1c3f01204285ae49a5c57c0",
+      "nonce": 66392,
+      "startTime": 1750211808267,
+      "endTime": 1750211808928,
+      "duration": 661,
+      "blockNumber": 15123050,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 220,
+        "expectedValue": "207",
+        "rpcResult": "205",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 8,
+      "txHash": "0xa0e79dda967c48d6b131918d659086f5b69f2a529b202d7c0b503cf0413e8dc9",
+      "nonce": 66393,
+      "startTime": 1750211808929,
+      "endTime": 1750211809606,
+      "duration": 677,
+      "blockNumber": 15123051,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 253,
+        "expectedValue": "208",
+        "rpcResult": "205",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 9,
+      "txHash": "0xf74d2e06bc51e68fc092b211ec76e0de900c7ee805c906647b08181a42d32b3a",
+      "nonce": 66394,
+      "startTime": 1750211809608,
+      "endTime": 1750211810309,
+      "duration": 701,
+      "blockNumber": 15123052,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 223,
+        "expectedValue": "209",
+        "rpcResult": "207",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 10,
+      "txHash": "0x8c4825c99d8f28a5668ffad1d23fba024d9609a71cbbca74e45f85bb37c4a44c",
+      "nonce": 66395,
+      "startTime": 1750211810310,
+      "endTime": 1750211810989,
+      "duration": 679,
+      "blockNumber": 15123052,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 217,
+        "expectedValue": "210",
+        "rpcResult": "208",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 11,
+      "txHash": "0x0eb0f509dda4633951667d532e7c4b1c80e3408739a7324c0042812591e1099a",
+      "nonce": 66396,
+      "startTime": 1750211810991,
+      "endTime": 1750211811650,
+      "duration": 659,
+      "blockNumber": 15123053,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 220,
+        "expectedValue": "211",
+        "rpcResult": "208",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 12,
+      "txHash": "0x4522ba3fc04dc6e1b9517c5c3f49ed23af8ab01aeaa7b5df00a96abd5bb05315",
+      "nonce": 66397,
+      "startTime": 1750211811651,
+      "endTime": 1750211812303,
+      "duration": 652,
+      "blockNumber": 15123053,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 231,
+        "expectedValue": "212",
+        "rpcResult": "210",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 13,
+      "txHash": "0xaf7f9ea635f7688b24560430e212aec6d49307722e7eb11743aef0cdd9a584f8",
+      "nonce": 66398,
+      "startTime": 1750211812304,
+      "endTime": 1750211813112,
+      "duration": 808,
+      "blockNumber": 15123055,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 271,
+        "expectedValue": "213",
+        "rpcResult": "212",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 14,
+      "txHash": "0xe4042910c470a5c9615708371819ef4660116a3fb1d42113230dbbc0fbdcbc5d",
+      "nonce": 66399,
+      "startTime": 1750211813113,
+      "endTime": 1750211813928,
+      "duration": 815,
+      "blockNumber": 15123055,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 220,
+        "expectedValue": "214",
+        "rpcResult": "212",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 15,
+      "txHash": "0x946086a38171eba666fdd73cefced1510004cd5afbbe5e1a61a37c27d83ebe9e",
+      "nonce": 66400,
+      "startTime": 1750211813929,
+      "endTime": 1750211814617,
+      "duration": 688,
+      "blockNumber": 15123056,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 223,
+        "expectedValue": "215",
+        "rpcResult": "212",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 16,
+      "txHash": "0xfeb9c495bd261aa409a8d2878957ec486f4e56be171da0900068c8dc6835cf8b",
+      "nonce": 66401,
+      "startTime": 1750211814619,
+      "endTime": 1750211815338,
+      "duration": 719,
+      "blockNumber": 15123057,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 300,
+        "expectedValue": "216",
+        "rpcResult": "214",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 17,
+      "txHash": "0xd87dd82b286a35df370c2ef30ee49928088bc02bc86f2903a6d529a3c0232941",
+      "nonce": 66402,
+      "startTime": 1750211815339,
+      "endTime": 1750211816088,
+      "duration": 749,
+      "blockNumber": 15123057,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 222,
+        "expectedValue": "217",
+        "rpcResult": "214",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 18,
+      "txHash": "0xd1259d4b26f22c9464a70b6ac5d5f82bb037ed31f7a02a988029f66c8143c2f3",
+      "nonce": 66403,
+      "startTime": 1750211816089,
+      "endTime": 1750211816759,
+      "duration": 670,
+      "blockNumber": 15123058,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 216,
+        "expectedValue": "218",
+        "rpcResult": "215",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 19,
+      "txHash": "0x50192300332a1f79d4a3bb8c355db3ae00cc75603358b24c74f228fe33ab646a",
+      "nonce": 66404,
+      "startTime": 1750211816760,
+      "endTime": 1750211817494,
+      "duration": 734,
+      "blockNumber": 15123059,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 222,
+        "expectedValue": "219",
+        "rpcResult": "217",
+        "valuesMatch": false
+      }
+    },
+    {
+      "index": 20,
+      "txHash": "0xbf87157725419465ec6cd748d80b41be829ccb6b3b461e50390da11ee6ff6a69",
+      "nonce": 66405,
+      "startTime": 1750211817496,
+      "endTime": 1750211818173,
+      "duration": 677,
+      "blockNumber": 15123060,
+      "blockHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "gasUsed": 28062,
+      "status": "0x1",
+      "contractAddress": null,
+      "from": "0x0137882ef90c077ef9d48dde2bc97c64eb8e4f98",
+      "to": "0xc40680a15b6716db78624f1adc6b03118af1ffba",
+      "rpc": {
+        "duration": 217,
+        "expectedValue": "220",
+        "rpcResult": "218",
+        "valuesMatch": false
+      }
+    }
+  ],
+  "events": [
+    {
+      "eventName": "NewNumber",
+      "newNumber": "201",
+      "blockNumber": "15123046",
+      "transactionHash": "0x4735a81b2f1c65d0c0d86894e9d8d04df1001f12fe38f755d79da3622bf9acf1",
+      "timestamp": 1750211804396
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "202",
+      "blockNumber": "15123047",
+      "transactionHash": "0x18645ba327b1a2fb4118ad231d0093bf8bb649dbdc2bec9d3e04fa7ccf1d183b",
+      "timestamp": 1750211805600
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "203",
+      "blockNumber": "15123048",
+      "transactionHash": "0x5de45e515a3966cf37049212ff59e2031e5fd992223b4615fc8e949ba9feab70",
+      "timestamp": 1750211806276
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "204",
+      "blockNumber": "15123048",
+      "transactionHash": "0xe85ba993097fda44d5a584ab9cca792ca45cdcb60c015cc86a944f8f1295d836",
+      "timestamp": 1750211806937
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "205",
+      "blockNumber": "15123049",
+      "transactionHash": "0x6d588d107e6a6f8d1448885476df985797f8718137a1c9c50d12825a77da6303",
+      "timestamp": 1750211807600
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "206",
+      "blockNumber": "15123050",
+      "transactionHash": "0x7740fb0b3e2d13fcc0b9e0f165ef317eefb7f499f84bd2c919b7f7e7f1f1dbaa",
+      "timestamp": 1750211808271
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "207",
+      "blockNumber": "15123050",
+      "transactionHash": "0xe23075c94ebf14a0f31dd847824336fbe9628847a1c3f01204285ae49a5c57c0",
+      "timestamp": 1750211808938
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "208",
+      "blockNumber": "15123051",
+      "transactionHash": "0xa0e79dda967c48d6b131918d659086f5b69f2a529b202d7c0b503cf0413e8dc9",
+      "timestamp": 1750211809648
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "209",
+      "blockNumber": "15123052",
+      "transactionHash": "0xf74d2e06bc51e68fc092b211ec76e0de900c7ee805c906647b08181a42d32b3a",
+      "timestamp": 1750211810318
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "210",
+      "blockNumber": "15123052",
+      "transactionHash": "0x8c4825c99d8f28a5668ffad1d23fba024d9609a71cbbca74e45f85bb37c4a44c",
+      "timestamp": 1750211810998
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "211",
+      "blockNumber": "15123053",
+      "transactionHash": "0x0eb0f509dda4633951667d532e7c4b1c80e3408739a7324c0042812591e1099a",
+      "timestamp": 1750211811662
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "211",
+      "blockNumber": "15123053",
+      "transactionHash": "0x0eb0f509dda4633951667d532e7c4b1c80e3408739a7324c0042812591e1099a",
+      "timestamp": 1750211812104
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "212",
+      "blockNumber": "15123053",
+      "transactionHash": "0x4522ba3fc04dc6e1b9517c5c3f49ed23af8ab01aeaa7b5df00a96abd5bb05315",
+      "timestamp": 1750211812314
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "213",
+      "blockNumber": "15123055",
+      "transactionHash": "0xaf7f9ea635f7688b24560430e212aec6d49307722e7eb11743aef0cdd9a584f8",
+      "timestamp": 1750211813116
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "214",
+      "blockNumber": "15123055",
+      "transactionHash": "0xe4042910c470a5c9615708371819ef4660116a3fb1d42113230dbbc0fbdcbc5d",
+      "timestamp": 1750211813936
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "215",
+      "blockNumber": "15123056",
+      "transactionHash": "0x946086a38171eba666fdd73cefced1510004cd5afbbe5e1a61a37c27d83ebe9e",
+      "timestamp": 1750211814621
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "216",
+      "blockNumber": "15123057",
+      "transactionHash": "0xfeb9c495bd261aa409a8d2878957ec486f4e56be171da0900068c8dc6835cf8b",
+      "timestamp": 1750211815342
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "217",
+      "blockNumber": "15123057",
+      "transactionHash": "0xd87dd82b286a35df370c2ef30ee49928088bc02bc86f2903a6d529a3c0232941",
+      "timestamp": 1750211816091
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "218",
+      "blockNumber": "15123058",
+      "transactionHash": "0xd1259d4b26f22c9464a70b6ac5d5f82bb037ed31f7a02a988029f66c8143c2f3",
+      "timestamp": 1750211816764
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "219",
+      "blockNumber": "15123059",
+      "transactionHash": "0x50192300332a1f79d4a3bb8c355db3ae00cc75603358b24c74f228fe33ab646a",
+      "timestamp": 1750211817503
+    },
+    {
+      "eventName": "NewNumber",
+      "newNumber": "220",
+      "blockNumber": "15123060",
+      "transactionHash": "0xbf87157725419465ec6cd748d80b41be829ccb6b3b461e50390da11ee6ff6a69",
+      "timestamp": 1750211818190
+    }
+  ]
+}

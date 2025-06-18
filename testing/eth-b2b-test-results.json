@@ -1,0 +1,227 @@
+{
+  "testType": "eth-back-and-forth-with-shreds",
+  "timestamp": "2025-06-18T01:57:16.879Z",
+  "configuration": {
+    "transferAmount": "0.01",
+    "gasPrice": "100",
+    "gasLimit": "21000"
+  },
+  "wallets": {
+    "wallet1": "0x0137882ef90C077ef9D48Dde2bC97C64EB8E4f98",
+    "wallet2": "0x41BD3c783e918181bb1Bbb9cA6f45294a59ae077"
+  },
+  "balances": {
+    "initial": {
+      "wallet1": "9.272029427447758922",
+      "wallet2": "0.09069295607269607"
+    },
+    "final": {
+      "wallet1": "9.262029427438449115",
+      "wallet2": "0.090692956067599394"
+    }
+  },
+  "transactions": [
+    {
+      "round": 1,
+      "direction": "wallet1 -> wallet2",
+      "from": "wallet1",
+      "txHash": "0xe7d85372fc6b879e3e6f562cf8da20eefea9e3f16b77199e0a92ced8ace65122",
+      "blockNumber": 15123069,
+      "gasUsed": 21000,
+      "actualGasUsed": "2100000",
+      "status": "0x1",
+      "duration": 1238,
+      "rpc": {
+        "duration": 457,
+        "expectedBalances": {
+          "wallet1": "9.262029427445658922",
+          "wallet2": "0.10069295607269607"
+        },
+        "rpcResult": {
+          "wallet1": "9.262029427445355653",
+          "wallet2": "0.10069295607269607"
+        },
+        "differences": {
+          "wallet1": "-0.000000000000303269",
+          "wallet2": "0"
+        },
+        "balancesMatch": {
+          "wallet1": false,
+          "wallet2": true
+        }
+      }
+    },
+    {
+      "round": 1,
+      "direction": "wallet2 -> wallet1",
+      "from": "wallet2",
+      "txHash": "0xb03e57fd398a37f28bc1ab7383e498a083682987a02ac9f75d7870e7e52e4b32",
+      "blockNumber": 15123071,
+      "gasUsed": 21000,
+      "actualGasUsed": "2100000",
+      "status": "0x1",
+      "duration": 476,
+      "rpc": {
+        "duration": 445,
+        "expectedBalances": {
+          "wallet1": "9.272029427443558922",
+          "wallet2": "0.09069295607269607"
+        },
+        "rpcResult": {
+          "wallet1": "9.272029427443255653",
+          "wallet2": "0.090692956072392801"
+        },
+        "differences": {
+          "wallet1": "-0.000000000000303269",
+          "wallet2": "-0.000000000000303269"
+        },
+        "balancesMatch": {
+          "wallet1": false,
+          "wallet2": false
+        }
+      }
+    },
+    {
+      "round": 2,
+      "direction": "wallet1 -> wallet2",
+      "from": "wallet1",
+      "txHash": "0xeb00267efbe09799173cc636ac15ce8638d93575c07ae36f5a61637a29f18b8f",
+      "blockNumber": 15123072,
+      "gasUsed": 21000,
+      "actualGasUsed": "2100000",
+      "status": "0x1",
+      "duration": 1210,
+      "rpc": {
+        "duration": 456,
+        "expectedBalances": {
+          "wallet1": "9.262029427441458922",
+          "wallet2": "0.10069295607269607"
+        },
+        "rpcResult": {
+          "wallet1": "9.262029427440852384",
+          "wallet2": "0.100692956072392801"
+        },
+        "differences": {
+          "wallet1": "-0.000000000000606538",
+          "wallet2": "-0.000000000000303269"
+        },
+        "balancesMatch": {
+          "wallet1": false,
+          "wallet2": false
+        }
+      }
+    },
+    {
+      "round": 2,
+      "direction": "wallet2 -> wallet1",
+      "from": "wallet2",
+      "txHash": "0x647d13965634e94f6e45dba60e7616c5153ce8a135d6b65a837b405bc6361353",
+      "blockNumber": 15123074,
+      "gasUsed": 21000,
+      "actualGasUsed": "2100000",
+      "status": "0x1",
+      "duration": 671,
+      "rpc": {
+        "duration": 466,
+        "expectedBalances": {
+          "wallet1": "9.272029427441458922",
+          "wallet2": "0.09069295607059607"
+        },
+        "rpcResult": {
+          "wallet1": "9.262029427440852384",
+          "wallet2": "0.100692956072392801"
+        },
+        "differences": {
+          "wallet1": "-0.010000000000606538",
+          "wallet2": "0.010000000001796731"
+        },
+        "balancesMatch": {
+          "wallet1": false,
+          "wallet2": false
+        }
+      }
+    },
+    {
+      "round": 3,
+      "direction": "wallet1 -> wallet2",
+      "from": "wallet1",
+      "txHash": "0xf83944a3ffbb13fdb667321992145f9db5e09452c928c5427a98ad79271c232e",
+      "blockNumber": 15123076,
+      "gasUsed": 21000,
+      "actualGasUsed": "2100000",
+      "status": "0x1",
+      "duration": 569,
+      "rpc": {
+        "duration": 527,
+        "expectedBalances": {
+          "wallet1": "9.262029427439358922",
+          "wallet2": "0.10069295607059607"
+        },
+        "rpcResult": {
+          "wallet1": "9.262029427438449115",
+          "wallet2": "0.100692956069989532"
+        },
+        "differences": {
+          "wallet1": "-0.000000000000909807",
+          "wallet2": "-0.000000000000606538"
+        },
+        "balancesMatch": {
+          "wallet1": false,
+          "wallet2": false
+        }
+      }
+    },
+    {
+      "round": 3,
+      "direction": "wallet2 -> wallet1",
+      "from": "wallet2",
+      "txHash": "0x5d7a7d3449e11d1598f319c1de071e82c755b483c43ef3a865ccb82bd901951e",
+      "blockNumber": 15123077,
+      "gasUsed": 21000,
+      "actualGasUsed": "2100000",
+      "status": "0x1",
+      "duration": 466,
+      "rpc": {
+        "duration": 557,
+        "expectedBalances": {
+          "wallet1": "9.272029427439358922",
+          "wallet2": "0.09069295606849607"
+        },
+        "rpcResult": {
+          "wallet1": "9.272029427438449115",
+          "wallet2": "0.090692956067586263"
+        },
+        "differences": {
+          "wallet1": "-0.000000000000909807",
+          "wallet2": "-0.000000000000909807"
+        },
+        "balancesMatch": {
+          "wallet1": false,
+          "wallet2": false
+        }
+      }
+    }
+  ],
+  "summary": {
+    "wallet1NetChange": "-0.010000000009309807",
+    "wallet2NetChange": "-0.000000000005096676",
+    "totalRounds": 3,
+    "totalTransactions": 6,
+    "totalGasUsed": "126000",
+    "avgTransactionDurationMs": 771.6666666666666,
+    "avgRpcDurationMs": 484.6666666666667,
+    "avgBalanceDifference": "0.0033333333",
+    "finalExpectedBalances": {
+      "wallet1": "9.272029427439358922",
+      "wallet2": "0.09069295606849607"
+    },
+    "finalRpcResult": {
+      "wallet1": "9.262029427438449115",
+      "wallet2": "0.090692956067599394"
+    },
+    "finalDifferences": {
+      "wallet1": "-0.010000000000909807",
+      "wallet2": "-0.000000000000896676"
+    }
+  }
+}
